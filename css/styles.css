@@ -1,0 +1,355 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Roboto' , sans-serif;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.promo{
+    height: 800px;
+    background: url('../img/bg/main_bg.png') center center/cover no-repeat;
+    padding: 40px 0 60px 0;
+}
+
+.logo .logo_img{
+    display: block;
+    margin: 0 auto;
+}
+
+.logo .logo_text{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    margin-top: 14px;
+}
+
+h1{
+    margin-top: 53px;
+}
+.title{
+    font-size: 41px;
+    font-weight: 900;
+    text-align: center;
+    color: #F9BF3B;
+    text-transform: uppercase;
+}
+
+.simple .title_big{
+    font-size: 80px;
+    font-weight: 900;
+    line-height: 80px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 21px;
+}
+
+h2.title{
+    margin: 21px;
+}
+
+.promo .promo_text{
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: center;
+    color: #fff;
+    margin-top: 21px;
+    padding: 0 13px;
+}
+
+.promo .promo_text span{
+
+    font-weight: 700;
+    color: #F9BF3B;
+}
+
+.promo .promo_btn, .bonus .bonus_btn{
+    height: 72px;
+    width: 313px;
+    box-shadow: 0 0 0 rgba(#000 0.18);
+    border: 4px solid rgba(#000, 0.23);
+    background: linear-gradient(to top, #2798B9 0%, #3AB6DA 100%);
+    display: block;
+    margin: 0 auto;
+    margin-top: 72px;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+}
+
+.more {
+    margin-top: 71px;
+}
+
+.more .more_img{
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+    margin-top: 4px;
+}
+
+.more .more_text{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.waiting{
+    min-height: 607px;
+    background-color: #efefef;
+    padding: 85px 0 75px 0;
+}
+
+.waiting .waiting_header, .finish .finish_header, .seminar .seminar_header{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #252525;
+}
+
+.waiting .waiting_divider, .finish .finish_divider{
+    height: 7px;
+    width: 220px;
+    background-color: #F9BF3B;
+    margin: 0 auto;
+    margin-top: 18px;
+}
+
+.waiting .waiting_subheader{
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #4A4A4A;
+    margin-top: 19px;
+}
+
+.waiting .waiting_wrapper{
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+.waiting .waiting_wrapper .waiting_item{
+    width: 370px;
+    text-align: center;
+}
+
+.waiting .waiting_wrapper .waiting_item .item_img{
+    width: 100%;
+}
+
+.waiting .waiting_wrapper .waiting_item .item_descr{
+    margin-top: 26px;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+    color: #4A4A4A;
+}
+
+.optimization{
+    min-height: 500px;
+    padding: 108px 0 74px 0;
+}
+
+.optimization .optimization_title, .seminar .seminar_title{
+    margin-left: 390px;
+    font-size: 28px;
+    font-weight: 900;
+    text-align: left;
+    text-transform: uppercase;
+    color: #299CBD;
+}
+
+.optimization .optimization_text{
+    margin-left: 390px;
+    margin-top: 25px;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 27px;
+    text-align: left;
+    color: #4A4A4A;
+
+}
+
+.optimization .optimization_text span{
+    font-weight: 700;
+}
+
+.optimization .optimization_img{
+    position: absolute;
+    top: -47px;
+    left: -240px;
+    z-index: -1;
+}
+
+.finish{
+    min-height: 350px;
+    background-image: url(/progect1/src/img/bg/second_bg.png);
+}
+
+.finish .finish_header{
+    color: #efefef;
+    padding-top: 86px;
+}
+
+.finish .finish_wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 86px;
+}
+
+.finish .finish_wrapper .finish_item{
+    align-content: center;
+    width: 234px;
+    margin-top: 39px; 
+}
+
+.finish .finish_wrapper .finish_item .cercal{
+    margin: 0 auto;
+    background: #B4E2FF;
+    width: 118px;
+    height: 118px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.finish .finish_wrapper .finish_item .finish_text{
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: center;
+    color: #efefef;
+    margin-top: 24px;
+}   
+
+.bonus{
+    min-height: 630px;
+    background: #EFEFEF;
+    padding: 88px 0;
+}
+
+.bonus .bonus_item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bonus .bonus_item .bonus_img{
+    width: 154px;
+    height: 174px;
+}
+
+.bonus .bonus_item .bonus_text{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 43px;
+    text-align: center;
+    color: #252525;
+    margin-top: 45px;
+}
+
+.bonus .bonus_btn{
+    margin-top: 51px;
+}
+
+.seminar{
+    min-height: 433px;
+}
+
+.seminar .seminar_wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 81px 0 53px 0;
+}
+
+.seminar .seminar_header{
+    color: #252525;
+    margin: 0 auto;
+    text-align: start;
+    margin-top: 36px;
+}
+
+.seminar .seminar_img{
+    width: 342px;
+    height: 201px;
+    margin-top: 8px;
+}
+
+.seminar .seminar_title{
+    margin: 0 auto;
+    margin-top: 30px; 
+}
+
+.seminar .seminar_text{
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #4A4A4A;
+    margin-top: 25px;
+}
+
+footer{
+    min-height: 170px;
+    background: #1a1a1a;
+}
+
+footer .footer_wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 57px 0 69px 0;
+}
+
+footer .footer_wrapper .footer_links{
+   text-decoration: #888;
+}
+footer a, footer span, footer .footer_address{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+    color: #888;
+}
+
+footer .footer_address .phone{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
